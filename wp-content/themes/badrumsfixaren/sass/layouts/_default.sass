@@ -1,0 +1,17 @@
+#primary
+  +breakpoint($medium-screen)
+    +span(8)
+
+#secondary
+  display: none
+  +breakpoint($medium-screen)
+    +span(4 last)
+    display: block
+
+.site-footer,
+.site-content
+  +clearfix
+
+.content-wrap
+  +clearfix
+  margin-top: em(25px)

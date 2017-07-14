@@ -1,0 +1,20 @@
+$susy: (
+  columns: 12,
+  global-box-sizing: border-box,
+  container: 980px,
+  gutters: .75,
+);
+
+$medium-screen: 600px;
+$phone-only: max-width $medium-screen;
+$large-screen: 900px;
+
+* {
+  box-sizing: border-box;
+}
+
+.site {
+  @include container();
+  padding-left: 10px;
+  padding-right: 10px;
+}

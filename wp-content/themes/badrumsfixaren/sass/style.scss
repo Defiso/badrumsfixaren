@@ -1,0 +1,29 @@
+/*!
+Theme Name: badrumsfixaren
+Author: Anton Kjörck Lindén
+Description: Tema för Badrumsfixaren
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: badrumsfixaren
+Tags:
+*/
+
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/susy/sass/susy";
+@import "../bower_components/compass-breakpoint/stylesheets/breakpoint";
+@import "normalize";
+@import "base/base";
+
+@import "layouts/default";
+@import "layouts/fullwidth";
+
+@import "components/navigation";
+@import "components/header";
+@import "components/aside";
+
+@import "modules/accessibility";
+@import "media/media";
+
+@import "views/bathrooms";
+@import "views/index";

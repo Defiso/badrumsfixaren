@@ -1,0 +1,29 @@
+.site-header
+  margin-bottom: em(25px)
+
+  .contact-details
+    display: none
+    text-align: right
+    float: right
+    span,
+    a
+      display: block
+    +breakpoint($medium-screen)
+      display: block
+
+  .top-row
+    margin-top: em(30px)
+    margin-bottom: em(27px)
+    +clearfix
+
+  .menu-toggle
+    width: 100%
+    text-align: center
+
+.site-branding
+  text-align: center
+  +breakpoint($medium-screen)
+    float: left
+
+  a
+    display: block
